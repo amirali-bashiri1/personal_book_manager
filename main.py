@@ -1,3 +1,6 @@
+from books import show_books
+
+
 user_name = input("Enter your name: ")
 print("Welcome", user_name)
 
@@ -10,6 +13,4 @@ for i in range(book_count):
     books.append(book)
 
 print("Your books:")
-
-for book in books:
-    print(book)
+show_books(books)
