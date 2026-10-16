@@ -1,16 +1,16 @@
-from books import show_books
-
+from books import show_books, save_books, load_books
 
 user_name = input("Enter your name: ")
 print("Welcome", user_name)
 
-book_count = int(input("How many books? "))
+books = load_books()
 
-books = []
+book_count = int(input("How many books do you want to add? "))
 
 for i in range(book_count):
     book = input("Enter a book: ")
     books.append(book)
 
-print("Your books:")
 show_books(books)
+
+save_books(books)
