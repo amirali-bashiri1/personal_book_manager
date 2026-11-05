@@ -1,6 +1,8 @@
 def show_books(books):
     for book in books:
-        print(book)
+        print("Book:", book["name"])
+        print("Priority:", book["priority"])
+        print("----------------")
 
 
 def save_books(books):
