@@ -1,7 +1,6 @@
 def show_books(books):
     for book in books:
-        print("Book:", book["name"])
-        print("Priority:", book["priority"])
+        print(f"Book: {book['name']} | Priority: {book['priority'].upper()}")
         print("----------------")
 
 
