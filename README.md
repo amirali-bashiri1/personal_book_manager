@@ -1,4 +1,5 @@
 # Personal Book Manager
+
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 
 A simple book management project built with Python.
@@ -9,7 +10,18 @@ A simple book management project built with Python.
 - Display books
 - Save books
 - Load saved books
+- Set priority for each book
 - Admin Mode
+
+## Book Priority
+
+Each book can have one of three priority levels:
+
+- `low`
+- `medium`
+- `high`
+
+The program asks the user to choose a priority when adding a book. It also checks whether the entered priority is valid.
 
 ## Requirements
 
@@ -56,7 +68,6 @@ python main.py
 
 ![Program Screenshot](images/screenshot.png.png)
 
-
 ## Project Structure
 
 - `main.py` — The main file that runs the program and handles user interactions.
@@ -71,10 +82,11 @@ python main.py
 1. The program starts by running `main.py`.
 2. It loads environment variables from the `.env` file.
 3. It loads previously saved books from `books.json`.
-4. The user can add new books.
-5. The program displays the books.
-6. Book information is saved in `books.json` so it can be used the next time the program runs.
-7. Admin Mode allows access to the admin section using the password stored in the `.env` file.
+4. The user can add new books and choose a priority.
+5. The program checks the selected priority.
+6. The program displays the books and their priorities.
+7. Book information is saved in `books.json`.
+8. Admin Mode allows access to the admin section using the password stored in the `.env` file.
 
 ## Troubleshooting
 
