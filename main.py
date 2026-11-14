@@ -40,6 +40,6 @@ for i in range(book_count):
 show_books(books)
 
 print("----------------")
-print("Total books:", len(books))
+print(f"Total number of books: {len(books)}")
 
 save_books(books)
