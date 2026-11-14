@@ -3,6 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 
 A simple book management project built with Python.
+This project helps users manage their personal book collection.
 
 ## Features
 
