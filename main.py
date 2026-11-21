@@ -36,6 +36,7 @@ for i in range(book_count):
     }
 
     books.append(book)
+    print("Book added successfully")
 
 show_books(books)
 
